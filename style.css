@@ -1,0 +1,171 @@
+@font-face {
+    font-family: norse;
+    src: url(./Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.container .left-section {
+    background-image: url("./halie.jpg");
+    background-repeat: no-repeat;
+    width: 900px;
+    background-size: cover;
+    position: relative;
+
+}
+
+.left-section .img-text {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px 0;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.162);
+}
+
+.left-section .img-text .logo {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.left-section .img-text .text {
+    font-family: norse;
+    color: #fff;
+    font-size: 100px;
+}
+
+.left-section .links {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-section .links a {
+    /* text-decoration: none; */
+    color: white;
+}
+
+.container .rigth-section {
+    background-color: #eee;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.rigth-section p {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 100px;
+    padding-left: 35px;
+}
+
+.rigth-section p+p {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.rigth-section form {
+    background-color: #fff;
+    padding-left: 35px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    box-shadow: 0 5px 5px #42414141;
+
+}
+
+.rigth-section form h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.rigth-section form .items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.rigth-section form .items .item{
+    /* background-color: brown; */
+}
+.rigth-section form .items .item label{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+.rigth-section form .items .item input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 85%;
+    font-size: 16px;
+    border: 1px solid #E5E7EB;
+    outline: none;
+    height: 35px;
+
+}
+
+.rigth-section form .items .item input:focus{
+    border-color: blue;
+    box-shadow: 2px 3px 5px #00000061;
+}
+.rigth-section form .items .item input[type="password"]:invalid{
+    border-color: red;
+}
+.rigth-section form .items .item .error-pwd{
+    display: none;
+}
+
+.rigth-section .create-btn{
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 15px 50px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #596d48;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.rigth-section .create-btn:active{
+    opacity: 0.5;
+}
+.rigth-section .link-login{
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 35px;
+
+}
+.rigth-section .link-login span a{
+    color: #596d48;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+

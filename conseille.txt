@@ -1,0 +1,7 @@
+La façon dont vous attaquez ce projet dépend principalement de vous, mais il est sage de commencer par échafauder la structure de la page, puis d'aborder les différentes sections une par une.
+La zone derrière le logo “ODIN” est une div qui a une couleur de fond sombre, mais semi-transparente. Cela améliore la lisibilité du texte par rapport à l'image d'arrière-plan occupée.
+La couleur choisie par we’ve pour le bouton ‘Create Account’ est similaire aux tons trouvés dans l'image d'arrière-plan. Plus précisément, il est #596D48.
+Les entrées, par défaut, ont une bordure très légère (#E5E7EB), mais we’ve inclus 2 variations. Pour commencer, les entrées de mot de passe doivent avoir une bordure rouge si elles contiennent un mot de passe invalide. Cela peut être géré avec le :invalid pseudo-classe que vous avez apprise dans la leçon précédente.
+L'autre variante est l'entrée sélectionnée, qui devrait avoir une bordure bleue et un ombrage subtil. Cela peut être fait avec le :focus pseudo-classe que vous avez apprise dans une leçon précédente.
+Ne vous inquiétez pas de rendre votre projet agréable sur mobile. Le design réactif est couvert jusqu'à plus tard dans le programme.
+Valider que les champs de mot de passe correspondent nécessite JavaScript. L'utilisation de JavaScript pour valider les formulaires est abordée dans une leçon future. Pour l'instant, validez chaque champ séparément.
